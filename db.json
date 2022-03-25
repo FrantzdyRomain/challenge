@@ -1,14 +1,12 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "classroom_seats": [
+    { "id": 1, "assigned": 3 },
+    { "id": 2, "assigned": 2},
+    { "id": 3, "assigned": 1}
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "students": [
+    { "id": 1, "firstname": "john", "lastname":"doe" },
+    { "id": 2, "firstname": "jane", "lastname":"doe"},
+    { "id": 3, "firstname": "Jeff", "lastname":"bezos" }
+  ]
 }
